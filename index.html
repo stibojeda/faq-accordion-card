@@ -7,38 +7,83 @@
   <title>FAQ accordion card</title>
   <link rel="icon" type="images/png" href="images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <script type="text/javascript" src="functions.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  
 </head>
 <body>
   <section class="faqcard">
-    <div class="faqcard__image">
-      <img class="faqcard__image" src="images/illustration-woman-online-mobile.svg">
+    <img class="faqcard_image_mobile" src="images/illustration-woman-online-mobile.svg" alt="Woman online image.">
+    <img class="faqcard_image_desktop" src="images/illustration-woman-online-desktop.svg" alt="Woman online image.">
+    <div class="faqcard__text">
+      <h2>FAQ</h2>
+      <div class="faqcard__question">
+        <div class="faqcard__interrogation">
+          <h5>How many team members can I invite?</h5>
+          <button id="faqcard_arrow_button1" class="faqcard__button">
+            <img src="images/icon-arrow-down.svg" alt="Arrow icon.">
+          </button>
+        </div>
+        <p id="paragraph_1" class="faqcard__answer">
+          bla bla bla bjelsaks. askdjfhaksdjhfasdkfjhaskdjhfasd. askjhAjjja.
+        </p>
+        
+      </div>
+
+      <div class="faqcard__line"></div>
+
+      <div class="faqcard__question">
+        <div class="faqcard__interrogation">
+          <h5>What is the maximum file upload size?</h5>
+          <button id="faqcard_arrow_button2" class="faqcard__button">
+            <img src="images/icon-arrow-down.svg" alt="Arrow icon.">
+          </button>
+        </div>
+        <p id="paragraph_2" class="faqcard__answer">
+          No more than 2GB. All files in your account must fit your allotted storag space.
+        </p>
+      </div>
+
+      <div class="faqcard__line"></div>
+
+      <div class="faqcard__question">
+        <div class="faqcard__interrogation">
+          <h5>How do I reset my password?</h5>
+          <button class="faqcard__button">
+            <img src="images/icon-arrow-down.svg" alt="Arrow icon.">
+          </button>
+        </div>
+      </div>
+
+      <div class="faqcard__line"></div>
+
+      <div class="faqcard__question">
+        <div class="faqcard__interrogation">
+          <h5>Can I cancel my subscription?</h5>
+          <button class="faqcard__button">
+            <img src="images/icon-arrow-down.svg" alt="Arrow icon.">
+          </button>
+        </div>
+      </div>
+
+      <div class="faqcard__line"></div>
+
+      <div class="faqcard__question">
+        <div class="faqcard__interrogation">
+          <h5>Do you provide additional support?</h5>
+          <button class="faqcard__button">
+            <img src="images/icon-arrow-down.svg" alt="Arrow icon.">
+          </button>
+        </div>
+      </div>
+
+      <div class="faqcard__line"></div>
     </div>
-    <h2>FAQ</h2>
-    <div class="faqcard__paragraph">
-      <h5>How many team members can I invite?</h5>
-      <img src="images/icon-arrow-down.svg">
-    </div>
-    <div class="faqcard__paragraph">
-      <h5>What is the maximum file upload size?</h5>
-      <img src="images/icon-arrow-down.svg">
-      <p>
-        No more than 2GB. All files in your account must fit your allotted storag space.
-      </p>
-    </div>
-    <div class="faqcard__paragraph">
-      <h5>How do I reset my password?</h5>
-      <img src="images/icon-arrow-down.svg">
-    </div>
-    <div class="faqcard__paragraph">
-      <h5>Can I cancel my subscription?</h5>
-      <img src="images/icon-arrow-down.svg">
-    </div>
-    <div class="faqcard__paragraph">
-      <h5>Do you provide additional support?</h5>
-      <img src="images/icon-arrow-down.svg">
-    </div>
-    
   </section>
+
+  <!-- JavaScript program. -->
+  <script src="functions.js"></script>
+  <!-- ---------------------- -->
 </body>
 </html>
