@@ -35,7 +35,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 I practiced the mobile first method. Also, I practice JavaScript on the basics knowledges of DOM.
 
 ### Useful resources
-- [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 - [Free Code Camp](https://www.youtube.com/watch?v=XqFR2lqBYPs)
 - [CURSO CSS desde Cero - CSS BÁSICO Para PRINCIPIANTES](https://www.youtube.com/watch?v=N8V5JhasaSE)
 
